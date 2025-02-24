@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "git pull && npm install && npx build && pm2 restart teste"
+    "deploy": "git pull && npm install && npm run build && pm2 restart teste"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.48.1",
